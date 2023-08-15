@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Roboto', sans-serif;
 }
 html {
     background-color: #262726;
@@ -48,20 +49,18 @@ main #hero {
     color: #fff;
 }
 main #hero h1 {
-    font-family: Oswald;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 30px;
     line-height: 50px;
     letter-spacing: 2px;
 }
 main #hero h2 {
     margin-top: 50px;
-    font-family: Oswald;
     font-weight: 700;
     color: #736e65;
 }
 main #hero span {
-    color: rgba(255, 0, 0, 0.701);
+    color: rgb(226,9,20);
 }
 main #hero .category {
     margin: 100px 10px 0;
@@ -77,9 +76,10 @@ main #hero .category .box {
     border-radius: 5px;
     width: 220px;
     transition: all 500ms ease;
+    border: 0.1px #786e6e solid;
 }
 main #hero .category .box:hover {
-    box-shadow: 2px -1px 28px 8px #736e65;
+    box-shadow: 2px -1px 28px 8px #1A1616;
 }
 main #hero .category .box img {
     width: 200px;
@@ -89,12 +89,10 @@ main #hero .category .box .boxContent {
 }
 main #hero .category .box .boxContent a {
     color: #fff;
-    font-family: Oswald;
 }
 
 /* Footer Section */
 footer {
-    font-family: Roboto;
     font-weight: 700;
     background-color: #171817;
     color: #fff;
